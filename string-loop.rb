@@ -4,9 +4,9 @@ my_string.upcase!
 
 my_list = my_string.split("")
 
-counter = 0
+counter = 1
 
-while counter < my_list.length do
-	puts "#{counter + 1}: #{my_list[counter]}"
+my_list.each do |item|
+	puts "#{counter}: #{item}"
     counter += 1
 end
